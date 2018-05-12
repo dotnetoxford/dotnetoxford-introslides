@@ -22,3 +22,4 @@ We'll also publish each one to Azure, so will include a list of links here:
 * [February 2018: A Piece of Cake](https://dotnetoxfordslides-2018-02-06.azurewebsites.net)
 * [March 2018: 12 Factor Apps](https://dotnetoxfordslides-2018-03-13.azurewebsites.net/)
 * [April 2018: Azure Security and Infosec Fails](https://dotnetoxfordslides-2018-04-24.azurewebsites.net/)
+* [May 2018: Entity Framework Core](https://dotnetoxfordslides-2018-05-08.azurewebsites.net/)
