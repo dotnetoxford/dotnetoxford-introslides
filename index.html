@@ -29,56 +29,8 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <!-- .NET Oxford -->
-                <section>
-                    <img data-src="images/fixed/dotnetoxford.png" class="fixed-width" />
-                    <aside class="notes" data-markdown>
-                    </aside>
-                </section>
-                <!-- Organizers -->
-                <section>
-                    <h1>Organisers</h1>
-                </section>
-                <!-- Dan -->
-                <section>
-                    <div class="container">
-                        <div class="col">
-                            <img data-src="images/fixed/Dan.jpg" width="100%" />
-                        </div>
-                        <div class="col">
-                            <h3>Dan Clarke</h3>
-                            <p><a href="">@dracan</a></p>
-                            <p class="sm">Independent Software Developer</p>
-                            <p class="sm">Owner of Everstack Ltd</p>
-                            <a class="sm" href="">www.danclarke.com</a>
-                        </div>
-                    </div>
-                    <aside class="notes" data-markdown>
-                        * @dracan on Twitter
-                        * Independent developer for Everstack - mention later
-                        * Blog + .NET Oxford writeups
-                    </aside>
-                </section>
-                <!-- Matt -->
-                <section>
-                    <div class="container">
-                        <div class="col">
-                            <img data-src="images/fixed/Matt3.jpg" width="80%" />
-                        </div>
-                        <div class="col">
-                            <h3>Matt Nield</h3>
-                            <p><a href="">@mnield</a></p>
-                            <p class="sm">Kentico MVP</p>
-                            <p class="sm">Development Manager at Ridgeway</p>
-                            <a class="sm" href="">www.mattnield.co.uk</a>
-                        </div>
-                    </div>
-                    <aside class="notes" data-markdown>
-                        * @mnield on Twitter
-                        * Ridgeway and Kentico MVP
-                        * Content management, ecommerce, and banking
-                        * Blog
-                    </aside>
+                <!-- Main info page -->
+                <section data-background-image="images/fixed/FrontPage.png" data-background-size="90%">
                 </section>
                 <!-- Sponsors -->
                 <section>
@@ -154,97 +106,31 @@
                     </div>
                 </section> -->
                 <!-- Fire exit -->
-                <section>
+               <section>
                     <img data-src="images/fixed/fire-exit-sign.jpg" class="fixed-width no-border no-color" />
                     <aside class="notes" data-markdown>
-                        * Probably don't use the lift
                         * Stairs left and right
-                        * Toilets waaaay down the end of the corridor
-                    </aside>
-                </section>
-                <!-- DDDSW -->
-                <section>
-                    <img data-src="images/march2018/DDDSW.png" class="no-border no-color" width="60%" />
-
-                    <p>https://dddsouthwest.com</p>
-                    <p>http://developerdeveloperdeveloper.com</p>
-
-                    <aside class="notes" data-markdown>
-                        * June 23
+                        * Toilets
                     </aside>
                 </section>
                 <!-- News -->
                 <section>
                     <img data-src="images/fixed/News.jpg" class="fixed-width" />
                 </section>
-                <!-- WinFile open sourced! -->
-                <section>
-                    <img data-src="images/april2018/winfile.png" class="no-border" />
-                    <h4>Microsoft has Open Sourced WinFile!!</h4>
-                    <a href="">https://github.com/Microsoft/winfile</a>
-                </section>
-                <!-- HTTP/2 Support in Azure App Service -->
-                <section>
-                    <img data-src="images/april2018/azure.png" class="no-border no-color" />
-                    <h4>HTTP/2 support in Azure App Service</h4>
-
-                    <aside class="notes" data-markdown>
-                        * Latest update to the HTTP protocol - successor to 1.1
-                        * Benefits
-                            * A faster internet
-                            * Single connection - multiple requests, and can run in parallel
-                            * Header compression with HPACK
-                            * Binary support
-                            * HTTP/2 Browser Support Requires SSL
-                        * Disabled by default
-                            * Should be enabled by default in the next few months
-                        * Can current enable via a configuration setting called `http20Enabled`
-                        * Portal settings to enable coming soon
-                    </aside>
-                </section>
-                <!-- Blazor 0.2.0 Release -->
-                <section>
-                    <h3>Blazor 0.2.0 Release</h3>
-
-                    <a href="">https://github.com/aspnet/blazor</a>
-
-                    <aside class="notes" data-markdown>
-                        * Full-stack dev with webassembly and C#
-                        * Mention James' lightning talk
-                    </aside>
-                </section>
-                <!-- Announcing .NET Core 2.1 Preview 2 -->
+                <!-- .NET Core 2.1 Released -->
                 <section>
                     <div class="container">
                         <div class="col"><img data-src="images/feb2018/netcore.svg" class="no-border no-color" /></div>
                         <div class="col2">
                             <ul>
-                                <li>.NET Core 2.1 Preview 2</li>
-                                <li>EF Core 2.1 Preview 2</li>
-                                <li>ASP.NET Core 2.1 Preview 2</li>
+                                <li>.NET Core 2.1</li>
+                                <li>EF Core 2.1</li>
+                                <li>ASP.NET Core 2.1</li>
                             </ul>
                         </div>
                     </div>
 
                     <aside class="notes" data-markdown>
-                    </aside>
-                </section>
-                <section>
-                    <img data-src="images/april2018/preview2buildtimes.png" class="no-border" />
-
-                    <aside class="notes" data-markdown>
-                    </aside>
-                </section>
-                <!-- .NET Docker Images merge -->
-                <section>
-                    <img data-src="images/april2018/docker.png" class="no-border no-color">
-
-                    <h4>ASP.NET &amp; .NET Core Docker Images Merge</h4>
-
-                    <aside class="notes" data-markdown>
-                        * Starting with _.NET Core 2.1-preview2_
-                        * Type of image is specified by image tags/versions instead
-                        * Reason: People kept on trying to use dotnet for asp.net
                     </aside>
                 </section>
                 <!-- Free stuff graphic -->
@@ -285,43 +171,9 @@
                 <section data-background="images/fixed/devtips.jpg">
                     <h1>Dev Tips!</h1>
                 </section>
-                <!-- James' tip: Read the Error message -->
-                <section>
-                    <h3>Read Those Error Messages!</h3>
-                    <a href="">James World</a>
-                    <p class="sm"><i>"When we run into an error in our programs, we often do one of two things: We try the same thing again hoping for a different result, or we make hasty unfounded assumptions and jump straight into the source code to make irrelevant changes or vainly scan the code hunting for a problem. My tip is this: Stop! Take a breath and really read the error message or stack trace. Try to deduce the problem from the information in the message - or at the very least narrow down your search area. Error messages usually tell the truth and lead us straight to the problem, if only we would stop and think for a moment!"</i></p>
-                </section>
                 <!-- Upcoming Meetups -->
                 <section>
                     <img data-src="images/fixed/upcoming-events.png" class="no-border no-color" />
-                </section>
-                <!-- Upcoming Meetup: Entity Framework Core -->
-                <section>
-                    <img data-src="images/jan2018/efcore.png" width="25%" />
-                    <img data-src="images/jan2018/johnpsmith.jpg" width="25%" />
-
-                    <h3>Entity Framework Core</h3>
-                    <p>Jon P Smith</p>
-                    <p class="sm">Tuesday 8th May</p>
-
-                    <aside class="notes" data-markdown>
-                        * May
-                        * John Smith - Entity Framework Core
-                    </aside>
-                </section>
-                <!-- Upcoming Meetup: Lightning Talks -->
-                <section data-background="images/upcoming/lightning.jpg">
-                    <div class="container" style="justify-content: flex-end">
-                        <div class="row">
-                            <h2 style="color: yellow">Lightning Talks!</h2>
-                            <p class="sm" style="color: yellow">Tuesday 5th June</p>
-                        </div>
-                    </div>
-
-                    <aside class="notes" data-markdown>
-                        * June
-                        * Slots available!
-                    </aside>
                 </section>
                 <!-- Upcoming Meetup: Getting Entangled in Q# -->
                 <section>
@@ -420,39 +272,6 @@
 
                     <aside class="notes" data-markdown>
                         * December
-                    </aside>
-                </section>
-                <!-- Tonight: Security -->
-                <section>
-                    <h3>Azure Security and Infosec Fails</h3>
-                    <p class="sm2">Tuesday 24th April</p>
-
-                    <hr />
-
-                    <div class="container">
-                        <div class="col">
-                            <img data-src="images/upcoming/robinminto.jpg" width="60%" />
-                        </div>
-                        <div class="col2">
-                            <h4>#FAIL - Lessons from infosec incidents</h4>
-                            <p class="sm2">Robin Minto (<a href="">@robinem</a>)</p>
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="col">
-                            <img data-src="images/upcoming/Frans.jpg" width="60%" />
-                        </div>
-                        <div class="col2">
-                            <h4>Securing Web Apps in Azure</h4>
-                            <p class="sm2">Frans Lytzen (<a href="">@flytzen</a>)</p>
-                        </div>
-                    </div>
-
-                    <aside class="notes" data-markdown>
-                        * Next Month
-                        * Frans Lytzen - Securing Web Apps in Azure
-                        * Robin Minto - Lessons from info sec incidents
                     </aside>
                 </section>
             </div>
