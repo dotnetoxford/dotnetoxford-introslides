@@ -32,3 +32,13 @@
 .no-color {
     background-color: #222 !important;
 }
+
+.reveal table td {
+    font-size: 0.8em;
+    border-bottom: 1px solid grey;
+}
+
+ul, li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
