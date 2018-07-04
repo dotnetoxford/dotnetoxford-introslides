@@ -32,20 +32,6 @@
                 <!-- Main info page -->
                 <section data-background-image="images/fixed/FrontPage.png" data-background-size="90%">
                 </section>
-                <!-- Agenda -->
-                <section>
-                    <h2>Agenda</h2>
-
-                    <table>
-                        <tr><td>James World</td><td>WebAssembly and Blazor</td></tr>
-                        <tr><td>Stuart Leeks</td><td>Azure Durable Funkiness</td></tr>
-                        <tr><td>Matt Nield</td><td>Beginner's guide to Azure Search</td></tr>
-                        <tr><td></td><td><i>-- Break --</i></td></tr>
-                        <tr><td>Dan Clarke</td><td>Kubernetes - What and Why?</td></tr>
-                        <tr><td>Corriculo Recruitment</td><td>Let’s Talk .NET Oxford</td></tr>
-                        <tr><td>Dong Xie</td><td>LiteDb, the great little NoSQL for .NET</td></tr>
-                    </table>
-                </section>
                 <!-- Sponsors -->
                 <section>
                     <h1>Sponsors</h1>
@@ -99,53 +85,26 @@
                 <section>
                     <img data-src="images/fixed/News.jpg" class="fixed-width" />
                 </section>
-                <!-- Microsoft + GitHub -->
+                <!-- New stuff in Web Forms -->
                 <section>
-                    <img data-src="images/june2018/MicrosoftLogo.png" class="no-border no-color" />
+                    <img data-src="images/july2018/ASP.NET-MVC-Development-Propositions.png" class="no-border no-color" />
+                    <aside class="notes" data-markdown>
+                    https://channel9.msdn.com/Shows/On-NET/New-features-in-ASPNET-Web-Forms?term=web%20forms&lang-en=true
+                    </aside>
 
-                    <div class="container" style="margin-left: 25%">
-                        <img data-src="images/june2018/GitHub_Logo_White.png" class="no-border no-color" width="55%" />
-                        <img data-src="images/june2018/GitHub-Mark-Light-120px-plus.png" class="no-border no-color" width="25%" />
-                    </div>
                 </section>
-                <!-- .NET Core 2.1 Released -->
+                <!-- .NET Core 2.1 Flaw postponse 2.0 end of life -->
                 <section>
-                    <div class="container">
-                        <div class="col"><img data-src="images/feb2018/netcore.svg" class="no-border no-color" /></div>
-                        <div class="col2">
-                            <h3>.NET Core 2.1 Released</h3>
-                            <ul>
-                                <li>+ ASP.NET Core 2.1</li>
-                                <li>+ EF Core 2.1</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <img data-src="images/feb2018/netcore.svg" class="no-border no-color" WIDTH="60%" />
 
                     <aside class="notes" data-markdown>
-                        * Much faster builds
-                        * Span&lt;&gt;
-                        * Alpine Linux and ARM32 chips
-                            * Smaller Docker images!
-                        * SignalR
-                        * HttpClientFactory
-                        * Plus much more!
+                        - .Net Core 2.0 is not LTS (long-term support)
+                        - Flaw in .NET Core 2.1 extends End of life for .NET Core 2.0
+                        - The issue is an application crashing exception ("System.BadImageFormatException") that can occur when the "AppDynamics.Agent.Windows" package is part of a web application.
+                        - Extended to Octorber 1, 2018 (was september 1 - party time)
+                        
+                        https://www.infoq.com/news/2018/06/net-core-2-eol
                     </aside>
-                </section>
-                <!-- DDDSW -->
-                <section>
-                    <img data-src="images/june2018/developerday.png" class="no-border no-color" width="40%" />
-                    <h2>Developer Day 2018</h2>
-                    <p>Saturday, June 23, 2018</p>
-                    <p>Reading, Microsoft UK HQ</p>
-                    <a href="">http://developerdeveloperdeveloper.com</a>
-
-                    <aside class="notes" data-markdown>
-                        * Not many tickets left!
-                    </aside>
-                </section>
-                <!-- VS Live Share -->
-                <section>
-                    <img data-src="images/june2018/visualstudioliveshare.jpg">
                 </section>
                 <!-- Free stuff graphic -->
                 <section>
@@ -181,28 +140,37 @@
                         * Switch to prize draw app ...
                     </aside>
                 </section>
-                <!-- 30 Second Dev Tips -->
-                <section data-background="images/fixed/devtips.jpg">
-                    <h1>Dev Tips!</h1>
-                </section>
                 <!-- Upcoming Meetups -->
                 <section>
                     <img data-src="images/fixed/upcoming-events.png" class="no-border no-color" />
                 </section>
-                <!-- Upcoming Meetup: Getting Entangled in Q# -->
+                <!-- Upcoming Meetup: CosmosDB, Azure Functions, and PowerBI -->
                 <section>
-                    <img data-src="images/upcoming/Frances.jpg" width="30%" />
-                    <img data-src="images/upcoming/Anita.jpg" width="30%" />
-
-                    <h3>Getting Entangled in Q#!</h3>
-                    <p class="sm">Frances Tibble (<a href="">@frances_tibble</a>)</p>
-                    <p class="sm">Anita Ramanan (<a href="">@whywontitbuild</a>)</p>
-                    <p class="sm">Tuesday 3rd July</p>
-
+                    <h3>August</h3>
+                    <hr/>
+                    <h4>CosmosDB, Azure Functions, and PowerBI</h4>
+                    <div class="container">
+                        <div class="col">
+                            <img data-src="images/upcoming/jamesbroome.jpg" width="60%" />
+                        </div>
+                        <div class="col2">
+                            <p class="sm">James Broome (<a href="https://twitter.com/broomej">@broomej</a>)</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="col">
+                            <img data-src="images/upcoming/mikelarah.jpg" width="60%" />
+                        </div>
+                        <div class="col2">
+                            <p class="sm">Mike Larah (<a href="https://twitter.com/MikeLarah">@mikelarah</a>)</p>
+                        </div>
+                    </div>
                     <aside class="notes" data-markdown>
-                        * July
-                        * Frances Tibble
-                        * Anita Ramanan
+                        > Analyzing flight data in real time using Cosmos DB, Azure Functions and Power BI
+
+                        * August
+                        * James Broome
+                        * Mike Larah
                     </aside>
                 </section>
                 <!-- Upcoming Meetup: Clifford and Matt -->
@@ -216,7 +184,7 @@
                         </div>
                         <div class="col2">
                             <h5>Pilot Decision Management</h5>
-                            <p class="sm2">Clifford Agius (<a href="">@CliffordAgius</a>)</p>
+                            <p class="sm2">Clifford Agius (<a href="https://twitter.com/cliffordagius">@CliffordAgius</a>)</p>
                         </div>
                     </div>
 
@@ -225,45 +193,53 @@
                             <img data-src="images/upcoming/Matt3.jpg" width="60%" />
                         </div>
                         <div class="col2">
-                            <h5>Getting chatty with fish</h5>
-                            <p><i>Google Assistant to your data</i></p>
+                            <h5>Chatting with your data</h5>
 
-                            <p class="sm2">Matt Nield (<a href="">@mnield</a>)</p>
+                            <p class="sm2">Matt Nield (<a href="https://twitter.com/mnield">@mnield</a>)</p>
                         </div>
                     </div>
 
                     <aside class="notes" data-markdown>
                         * September
                         * Boeing 787 Dreamliner Pilot
+                        > This talk explores Clifford's experience as a Boeing 787 Dreamliner Pilot and the critical decision management skills required therein.
+
                         * How the critical decision management required can help a developer
+                        > looking at what you need to get started and move past the ubiquitous demos and hello world applications that people throw at you to look at some real client data
                     </aside>
                 </section>
                 <!-- Upcoming Meetup: Jon Skeet -->
                 <section>
+                    <h3>October</h3>
+                    <hr/>
+
                     <div class="container">
                         <div class="col">
-                            <img data-src="images/jan2018/jonskeet.jpg" />
+                            <img data-src="images/jan2018/jonskeet.jpg" width="60%" />
                         </div>
-                        <div class="col">
-                            <h2>Jon Skeet</h2>
-                            <p>Tuesday 9th October</p>
+                        <div class="col2">
+                            <p class="sm2">Jon Skeet (<a href="https://twitter.com/jonskeet">@jonskeet</a>)</p>
                         </div>
                     </div>
 
                     <aside class="notes" data-markdown>
-                        * October
+                        * October 9th
+
+                        > Who knows
                     </aside>
                 </section>
                 <!-- Upcoming Meetup: Benjamin Howarth: Performance in the Javascript Era -->
                 <section>
+                    <h3>November</h3>
+                    <hr/>
+
                     <div class="container">
                         <div class="col">
-                            <img data-src="images/upcoming/benhowarth.jpg" />
+                            <img data-src="images/upcoming/benhowarth.jpg" width="60%" />
                         </div>
-                        <div class="col">
-                            <h3>Performance in the Javascript Era</h3>
-                            <p class="sm">Benjamin Howarth (<a href="">@benjaminhowarth</a>)</p>
-                            <p>November</p>
+                        <div class="col2">
+                            <h4>Performance in the Javascript Era</h4>
+                            <p class="sm">Benjamin Howarth (<a href="https://twitter.com/benjaminhowarth">@benjaminhowarth</a>)</p>
                         </div>
                     </div>
 
@@ -277,16 +253,19 @@
                 </section>
                 <!-- Upcoming Meetup: Lightning Talks -->
                 <section data-background="images/upcoming/lightning.jpg">
-                    <div class="container" style="justify-content: flex-end">
-                        <div class="row">
-                            <h2 style="color: yellow">Lightning Talks!</h2>
-                            <p class="sm" style="color: yellow">December</p>
-                        </div>
-                    </div>
+                    <h3>December</h3>
+                    <hr/>
+                    <h4 style="color: yellow">Lightning Talks!</h4>
 
                     <aside class="notes" data-markdown>
                         * December
                     </aside>
+                </section>
+                <!-- Dev tips -->
+                <section data-background="images/fixed/devtips.jpg">
+                    <h3>Dev Tips</h3>
+                    <hr/>
+                    
                 </section>
             </div>
         </div>
