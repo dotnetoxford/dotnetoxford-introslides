@@ -24,3 +24,5 @@ We'll also publish each one to Azure, so will include a list of links here:
 * [April 2018: Azure Security and Infosec Fails](https://dotnetoxfordslides-2018-04-24.azurewebsites.net/)
 * [May 2018: Entity Framework Core](https://dotnetoxfordslides-2018-05-08.azurewebsites.net/)
 * [June 2018: Lightning Talks](https://dotnetoxfordslides-2018-06-05.azurewebsites.net/)
+* [July 2018: Getting Entangled in Q#](https://dotnetoxfordslides-2018-07-03.azurewebsites.net/)
+* [August 2018: Cosmos DB](https://dotnetoxfordslides-2018-08-07.azurewebsites.net/)
