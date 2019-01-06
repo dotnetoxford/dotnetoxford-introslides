@@ -29,3 +29,4 @@ We'll also publish each one to Azure, so will include a list of links here:
 * [Sept 2018: Bots, Chimps, and Critical Pilot Making](https://dotnetoxfordslides-2018-09-11.azurewebsites.net/)
 * [Oct 2018: C#8 with Jon Skeet](https://dotnetoxfordslides-2018-10-09.azurewebsites.net/)
 * [Nov 2018: Performance in the Javascript Era](https://dotnetoxfordslides-2018-11-13.azurewebsites.net/)
+* [Dec 2018: Lightning Talks](https://dotnetoxfordslides-2018-12-11.azurewebsites.net/)
