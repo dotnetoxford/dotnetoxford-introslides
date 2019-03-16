@@ -2,337 +2,249 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>.NET Oxford</title>
+  <title>.NET Oxford</title>
 
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
 
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/custom.css">
 
-    <style type="text/css">
-    </style>
+  <style type="text/css">
+  </style>
 
-    <!-- Printing and PDF exports -->
-    <script>
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-    </script>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
 </head>
 
 <body>
-    <div class="reveal">
-        <div class="slides">
-            <!-- Main info page -->
-            <section data-background-image="images/fixed/FrontPage.png" data-background-size="90%">
-                <aside class="notes" data-markdown>
-                </aside>
-            </section>
-            <!-- Survey Results -->
-            <section>
-              <img data-src="images/feb2019/Survey.png" />
-              <aside class="notes" data-markdown>
-                * Thank you for filling it in and for the great feedback
-                * Why we did it
-                * Results in blog post I sent out
-              </aside>
-            </section>
-            <section>
-              <h4>Should we continue with the prize draws?</h4>
-              <img data-src="images/feb2019/KeepPrizeDraw.png" class="no-border" />
-            </section>
-            <section>
-              <h4>Should we continue with the news section?</h4>
-              <img data-src="images/feb2019/NewsSection.png" class="no-border" />
-            </section>
-            <section>
-              <h4>What do you think about the frequency of our lightning talk events?</h4>
-              <img data-src="images/feb2019/LightningTalkFrequency.png" class="no-border" />
-            </section>
-            <section>
-              <h4>Are the blog posts / writeups useful?</h4>
-              <img data-src="images/feb2019/BlogPosts.png" class="no-border" />
-            </section>
-            <section>
-              <h4>Do you eat beforehand?</h4>
-              <img data-src="images/feb2019/Food.png" class="no-border" />
-            </section>
-            <section>
-              <h4>Are there any topics in particular you'd like us to find talks about?</h4>
-              <ul style="font-size: 0.7em">
-                <li>F#</li>
-                <li>.NET Core 3</li>
-                <li>.NET/Mono in a Linux environment</li>
-                <li>Blazor</li>
-                <li>Machine learning</li>
-                <li>Real world solutions - how we built X etc.</li>
-                <li>Micro service architectures</li>
-                <li>Domain Driven Development</li>
-                <li>Big data</li>
-                <li>Migrating to .NET Core</li>
-              </ul>
-            </section>
-            <section>
-              <h3>Any other comments?</h3>
-              <aside class="notes" data-markdown>
-                * Lots of positive comments
-                * 2min member profiles, where people can say a bit about what they do
-                * Change prize draw and get people to sign in
-                * Recording talks
-                * ---
-                * Also mention that I forget devtips
-              </aside>
-            </section>
-            <!-- Scott Hanselman -->
-            <section>
-              <img data-src="images/feb2019/ScottAudience.jpg" class="" />
-              <p>London.NET</p>
-              <aside class="notes" data-markdown>
-                * We're always trying to promote .NET Oxford
-                * Ian Cooper at the last meetup - .NET London
-              </aside>
-            </section>
-            <section>
-              <img data-src="images/feb2019/ScottTalk.jpg" class="" style="float:left" />
-            </section>
-            <section>
-              <img data-src="images/feb2019/MeAndSCott.jpg" class="" style="float:right" />
-            </section>
-            <!-- Facebook -->
-            <section>
-              <img data-src="images/feb2019/Facebook.jpg" class="" width="70%" />
-              <a href="">https://www.facebook.com/groups/dotnetoxford/</a>
-            </section>
-            <!-- Sponsors -->
-            <section>
-                <h1>Sponsors</h1>
-            </section>
-            <!-- Corriculo -->
-            <section>
-                <div class="container">
-                    <div class="col">
-                        <img data-src="images/fixed/Corriculo1.jpg" />
-                    </div>
-                    <div class="col">
-                        <img data-src="images/fixed/Corriculo2.jpg" />
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="col"><img src="images/fixed/CorriculoLogo.png" style="border:none; width: 150px;" /></div>
-                    <div class="col3">
-                        <h3>Corriculo Recruitment</h3>
-                        <a href="">https://corriculo.co.uk</a>
-                    </div>
-                </div>
-
-                <aside class="notes" data-markdown>
-                    * Thank Corriculo
-                </aside>
-            </section>
-            <!-- Everstack -->
-            <section>
-                <img class="fixed-width" data-src="images/fixed/EverstackSlide.svg" />
-
-                <aside class="notes" data-markdown>
-                    * Development and consultancy services
-                    * @everstack on Twitter - need to update slide to include this
-                </aside>
-            </section>
-            <!-- Prize Draw Sponsors -->
-            <section>
-                <img data-src="images/fixed/PrizeSponsors.svg" class="no-border no-color" width="100%" />
-            </section>
-            <!-- News -->
-            <section>
-              <img data-src="images/fixed/News.jpg" class="fixed-width" />
-            </section>
-            <!-- .NET Core 3 Preview 2 -->
-            <section>
-              <img data-src="images/feb2019/aspnetcore-750x381.png" class="no-border no-color" width="70%">
-              <h3>.NET Core 3 Preview 2 announced</h3>
-              <aside class="notes" data-markdown>
-                * More C#8 features
-                  * Using declarations
-                  * Switch expressions
-                  * Async streams
-                * Tons more (see link in blog post)
-              </aside>
-            </section>
-            <!-- Azure Cost Management -->
-            <section>
-              <h3>Azure Cost Management</h3>
-              <img data-src="images/feb2019/AzureCostManagment.jpg" class="no-border no-color" width="70%">
-              <ul>
-                <li>GA for Enterprise Agreement (EA) customers</li>
-                <li>Preview for Pay As You Go customers</li>
-              </ul>
-              <aside class="notes" data-markdown>
-                * Cost Analysis
-                * Budgets
-                * Alerts
-                * Exports
-                * APIs
-              </aside>
-            </section>
-            <!-- Other -->
-            <section>
-              <h2>Others</h2>
-              <ul>
-                <li>Blazor 0.8.0 released</li>
-                <li>ML.NET 0.10 released</li>
-                <li>Build 2019 announced - May 6-8</li>
-              </ul>
-            </section>
-            <!-- Free stuff graphic -->
-            <section>
-                <img data-src="images/fixed/freestuff2.png" class="no-border no-color">
-            </section>
-            <!-- Jetbrains -->
-            <section>
-                <img data-src="images/fixed/jetbrains.svg" style="background-color:#222; border:none; width:500px;" />
-            </section>
-            <!-- Manning -->
-            <section>
-                <img data-src="images/fixed/Manning.jpg" /><br />
-                <img data-src="images/fixed/ManningTitle.svg" style="border:none; background-color: #222; width:700px" />
-                <a href="" class="sm">https://www.manning.com</a>
-                <hr />
-                <p class="sm">36% off any purchase for .NET Oxford member with promotional code 'ug367'</p>
-            </section>
-            <!-- OzCode -->
-            <section>
-                <img class="fixed-width" data-src="images/fixed/OzCodeMagicalDebugging.svg" style="border:none; background-color:#222;" /><br />
-                <a href="" class="sm">https://oz-code.com</a>
-                <hr />
-                <p class="sm">3 months free licence or 50% off for .NET Oxford members!</p>
-                <a href="" class="sm">http://landing.oz-code.com/UserGroupParticipants</a>
-            </section>
-            <!-- Blank page for prize draw app switch -->
-            <section>
-                <aside class="notes" data-markdown>
-                    * Switch to prize draw app ...
-                </aside>
-            </section>
-            <!-- Upcoming Meetups -->
-            <section>
-                <img data-src="images/fixed/upcoming-events.png" class="no-border no-color" />
-            </section>
-            <!-- Upcoming Meetup: Simon Painter : Functional C# -->
-            <section>
-                <h3>12th March</h3>
-                <hr />
-
-                <div class="container">
-                    <div class="col">
-                      <img data-src="images/nov2018/simonpainter.jpg" width="100%" />
-                    </div>
-                    <div class="col2">
-                        <h3>Functional Programming in C#</h3>
-                        <p class="sm">Simon Painter (<a href="https://twitter.com/madSimonJ">@madSimonJ</a>)</p>
-                    </div>
-                </div>
-
-                <aside class="notes" data-markdown>
-                </aside>
-            </section>
-            <!-- Upcoming Meetup: Bob Martin -->
-            <section>
-                <h3>10th April (Wed)</h3>
-                <hr />
-
-                <div class="container">
-                    <div class="col">
-                      <img data-src="images/nov2018/bobmartin.jpg" width="100%" />
-                    </div>
-                    <div class="col2">
-                      <h4>An Evening with Uncle Bob</h4>
-                      <p class="sm">The Three Laws of Test Driven Development</p>
-                      <p class="sm">Robert Martin (<a href="https://twitter.com/unclebobmartin">@unclebobmartin</a>)</p>
-                    </div>
-                </div>
-
-                <aside class="notes" data-markdown>
-                  * Now announced
-                  * RSVPs open 3 weeks before
-                    * Will be waiting list, so don't want half the seats empty
-                  * Wednesday
-                  * Next door (St Aldates Conference Centre) (same as Jon Skeet)
-                </aside>
-            </section>
-            <!-- Upcoming Meetup: Lightning Talks -->
-            <section data-background="images/upcoming/lightning2.jpg">
-                <h3>May</h3>
-                <hr />
-                <h4>Lightning Talks!</h4>
-
-                <aside class="notes" data-markdown>
-                    TBC
-                </aside>
-            </section>
-            <!-- Fire exit -->
-            <section>
-                <img data-src="images/fixed/fire-exit-sign.jpg" class="fixed-width no-border no-color" />
-                <aside class="notes" data-markdown>
-                    * Stairs left and right
-                    * Toilets
-                </aside>
-            </section>
-            <!-- Tonight: Chris Bacon: .NET Internals -->
-            <section>
-                <h3>Tonight</h3>
-                <hr />
-
-                <div class="container">
-                    <div class="col">
-                        <img data-src="images/nov2018/chrisbacon.jpg" width="100%" />
-                    </div>
-                    <div class="col2">
-                        <h3>.NET Internals</h3>
-                        <p class="sm">Chris Bacon (<a href="https://www.twitter.com/chrisdunelm">@chrisdunelm</a>)</p>
-                    </div>
-                </div>
-
-                <aside class="notes" data-markdown>
-                    * Software engineer at Google, London working mainly on c# cloud client libraries
-                    * .NET internals, including demonstrations of various runtime details using an interpreted runtime
-                    I wrote a few years ago. I did a similar talk to this at NDC Oslo last year, and will be talking
-                    about this subject at the .NET southeast meetup in October
-                </aside>
-            </section>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Main info page -->
+      <section data-background-image="images/fixed/FrontPage.png" data-background-size="90%">
+        <aside class="notes" data-markdown>
+        </aside>
+      </section>
+      <!-- Sponsors -->
+      <section>
+        <h1>Sponsors</h1>
+      </section>
+      <!-- Corriculo -->
+      <section>
+        <div class="container">
+          <div class="col">
+            <img data-src="images/fixed/Corriculo1.jpg" />
+          </div>
+          <div class="col">
+            <img data-src="images/fixed/Corriculo2.jpg" />
+          </div>
         </div>
+
+        <div class="container">
+          <div class="col"><img src="images/fixed/CorriculoLogo.png" style="border:none; width: 150px;" /></div>
+          <div class="col3">
+            <h3>Corriculo Recruitment</h3>
+            <a href="">https://corriculo.co.uk</a>
+          </div>
+        </div>
+
+        <aside class="notes" data-markdown>
+          * Thank Corriculo
+        </aside>
+      </section>
+      <!-- Everstack -->
+      <section>
+        <img class="fixed-width" data-src="images/fixed/EverstackSlide.svg" />
+
+        <aside class="notes" data-markdown>
+          * Development and consultancy services
+          * @everstack on Twitter - need to update slide to include this
+        </aside>
+      </section>
+      <!-- Prize Draw Sponsors -->
+      <section>
+        <img data-src="images/fixed/PrizeSponsors.svg" class="no-border no-color" width="100%" />
+      </section>
+      <!-- News -->
+      <section>
+        <img data-src="images/fixed/News.jpg" class="fixed-width" />
+      </section>
+      <!-- Visual Studio 2019 -->
+      <section>
+        <img data-src="images/march2019/vsplogo.png" class="no-border no-color">
+        <h3>Visual Studio 2019</h3>
+        <aside class="notes" data-markdown>
+          * April 2nd release date
+          * Some built in AI
+          * Live code sharing enabled by default
+          * Better connection to Azure DevOps
+          * Last version to include load testing
+        </aside>
+      </section>
+      <!-- Draft pull requests -->
+      <section>
+          <img data-src="images/march2019/github_logo_white.png" class="no-border no-color" >
+          <h3>Draft Pull Requests</h3>
+          <aside class="notes" data-markdown>
+            * Start a conversation
+            * Get some feedback
+            * Can't merge them without promotiona
+          </aside>
+        </section>
+        <!-- .NET Core 3 Preview 3 -->
+      <section>
+        <img data-src="images/march2019/aspnetcore-750x381.png" class="no-border no-color">
+        <h3>.NET Core 3 Preview 3 announced</h3>
+        <aside class="notes" data-markdown>
+          * One better than preview two which we spoke about last month
+          * More C#8 features
+          * Using declarations
+          * Switch expressions
+          * Async streams
+          * Tons more (see link in blog post)
+        </aside>
+      </section>
+        <!-- Azure DevOps Server -->
+        <section>
+            <img data-src="images/march2019/azure-devops.jpg" class="no-border no-color">
+            <h3> Azure DevOps Server</h3>
+            <aside class="notes" data-markdown>
+              * One better than preview two which we spoke about last month
+              * More C#8 features
+              * Using declarations
+              * Switch expressions
+              * Async streams
+              * Tons more (see link in blog post)
+            </aside>
+          </section>
+      <!-- Free stuff graphic -->
+      <section>
+        <img data-src="images/fixed/freestuff2.png" class="no-border no-color">
+      </section>
+      <!-- Jetbrains -->
+      <section>
+        <img data-src="images/fixed/jetbrains.svg" style="background-color:#222; border:none; width:500px;" />
+      </section>
+      <!-- Manning -->
+      <section>
+        <img data-src="images/fixed/Manning.jpg" /><br />
+        <img data-src="images/fixed/ManningTitle.svg" style="border:none; background-color: #222; width:700px" />
+        <a href="" class="sm">https://www.manning.com</a>
+        <hr />
+        <p class="sm">36% off any purchase for .NET Oxford member with promotional code 'ug367'</p>
+      </section>
+      <!-- OzCode -->
+      <section>
+        <img class="fixed-width" data-src="images/fixed/OzCodeMagicalDebugging.svg"
+          style="border:none; background-color:#222;" /><br />
+        <a href="" class="sm">https://oz-code.com</a>
+        <hr />
+        <p class="sm">3 months free licence or 50% off for .NET Oxford members!</p>
+        <a href="" class="sm">http://landing.oz-code.com/UserGroupParticipants</a>
+      </section>
+      <!-- Blank page for prize draw app switch -->
+      <section>
+        <aside class="notes" data-markdown>
+          * Switch to prize draw app ...
+        </aside>
+      </section>
+      <!-- Upcoming Meetups -->
+      <section>
+        <img data-src="images/fixed/upcoming-events.png" class="no-border no-color" />
+      </section>
+      <!-- Upcoming Meetup: Bob Martin -->
+      <section>
+        <h3>10th April (Wed)</h3>
+        <hr />
+
+        <div class="container">
+          <div class="col">
+            <img data-src="images/nov2018/bobmartin.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h4>An Evening with Uncle Bob</h4>
+            <p class="sm">The Three Laws of Test Driven Development</p>
+            <p class="sm">Robert Martin (<a href="https://twitter.com/unclebobmartin">@unclebobmartin</a>)</p>
+          </div>
+        </div>
+
+        <aside class="notes" data-markdown>
+          * Now announced
+          * RSVPs open 3 weeks before
+          * Will be waiting list, so don't want half the seats empty
+          * Wednesday
+          * Next door (St Aldates Conference Centre) (same as Jon Skeet)
+        </aside>
+      </section>
+      <!-- Upcoming Meetup: Lightning Talks -->
+      <section data-background="images/upcoming/lightning2.jpg">
+        <h3>14th May</h3>
+        <hr />
+        <h4>Lightning Talks!</h4>
+
+        <aside class="notes" data-markdown>
+          TBC
+        </aside>
+      </section>
+      <!-- Tonight: Simon Painter: Functional Programming in C# -->
+      <section>
+        <h3>Tonight</h3>
+        <hr />
+
+        <div class="container">
+          <div class="col">
+            <img data-src="images/nov2018/simonpainter.jpg" width="100%" />
+          </div>
+          <div class="col2">
+            <h3>Functional Programming in C#</h3>
+            <p class="sm">Simon Painter (<a href="https://twitter.com/madSimonJ">@madSimonJ</a>)</p>
+          </div>
+        </div>
+
+        <aside class="notes" data-markdown>
+          Making use of out-of-the-box C# features to write Functional code that is:
+
+          * More robust
+          * Easier to read
+          * Easier to maintain
+        </aside>
+      </section>
     </div>
+  </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
 
-    <script>
-        // More info about config & dependencies:
-        // - https://github.com/hakimel/reveal.js#configuration
-        // - https://github.com/hakimel/reveal.js#dependencies
-        Reveal.initialize({
-            transition: 'fade', // none/fade/slide/convex/concave/zoom
-            controls: false,
-            progress: false,
-            history: true, // Means I can F5 during development, and not lose my place
-            // width: 700,
-            // height: '100%',
-            dependencies: [
-                { src: 'plugin/markdown/marked.js' },
-                { src: 'plugin/markdown/markdown.js' },
-                { src: 'plugin/notes/notes.js', async: true },
-                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
-            ]
-        });
-    </script>
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      transition: 'fade', // none/fade/slide/convex/concave/zoom
+      controls: false,
+      progress: false,
+      history: true, // Means I can F5 during development, and not lose my place
+      // width: 700,
+      // height: '100%',
+      dependencies: [
+        { src: 'plugin/markdown/marked.js' },
+        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/notes/notes.js', async: true },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+      ]
+    });
+  </script>
 </body>
 
 </html>
