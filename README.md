@@ -32,3 +32,4 @@ We'll also publish each one to Azure, so will include a list of links here:
 * [Dec 2018: Lightning Talks](https://dotnetoxfordslides-2018-12-11.azurewebsites.net/)
 * [Jan 2019: NGINX](https://dotnetoxfordslides-2019-01-08.azurewebsites.net/)
 * [Feb 2019: Inside the CLR](https://dotnetoxfordslides-2019-02-12.azurewebsites.net/)
+* [March 2019: Functional Programming in C#](https://dotnetoxfordslides-2019-03-12.azurewebsites.net/)
