@@ -33,3 +33,4 @@ We'll also publish each one to Azure, so will include a list of links here:
 * [Jan 2019: NGINX](https://dotnetoxfordslides-2019-01-08.azurewebsites.net/)
 * [Feb 2019: Inside the CLR](https://dotnetoxfordslides-2019-02-12.azurewebsites.net/)
 * [March 2019: Functional Programming in C#](https://dotnetoxfordslides-2019-03-12.azurewebsites.net/)
+* [April 2019: An Evening with Uncle Bob](https://dotnetoxfordslides-2019-04-10.azurewebsites.net/)
